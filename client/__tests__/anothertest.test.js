@@ -21,9 +21,9 @@ test('auxilary data', async () => {
     </Provider>
   );
 
-  // const button = getByRole('button');
+  const button = getByRole('button');
   const html = getByRole('button');
-  // const oldButton = getByRole('button');
+  const oldButton = getByRole('button');
 
   // fill out and submit form
   fireEvent.press(button);
