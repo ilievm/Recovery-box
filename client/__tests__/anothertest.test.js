@@ -13,6 +13,31 @@ import store from '../redux/store'
 
 import SuggestionItem from '../components/SuggestionItem'
 
+test('auxilary data', async () => {
+
+  const { getByPlaceholderText, getByText, getByRole} = render(
+    <Provider store={store}>
+      <SuggestionItem />
+    </Provider>
+  );
+
+  const html = getByRole('html');
+
+  // fill out and submit form
+  fireEvent.press(button);
+
+  // it sets loading state
+  // expect(button).toBeDisabled();
+  // expect(button).toHaveTextContent('Loading...');
+
+  await waitFor(() => {
+    expect(getByRole('button').props.children).toBe(
+      !oldButton
+    )    
+    console.log(getByRole('button'));
+  });
+});
+
 test('successful login', async () => {
 
   const { getByPlaceholderText, getByText, getByRole} = render(
