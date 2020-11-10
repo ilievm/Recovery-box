@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --env=jsdom"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.3.3",
+    "sequelize": "^6.3.5",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.0.4",
+    "jest": "^26.5.2",
+    "nodemon": "^2.0.4"
+  }
+}

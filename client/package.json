@@ -1,0 +1,62 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@expo-google-fonts/montserrat": "^0.1.0",
+    "@react-native-community/art": "^1.2.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-community/picker": "^1.8.0",
+    "@react-native-community/slider": "^3.0.3",
+    "@react-navigation/bottom-tabs": "^5.9.0",
+    "@react-navigation/drawer": "^5.9.1",
+    "@react-navigation/native": "^5.7.4",
+    "@react-navigation/stack": "^5.9.1",
+    "axios": "^0.20.0",
+    "expo": "~39.0.2",
+    "expo-font": "~8.3.0",
+    "expo-status-bar": "~1.0.2",
+    "expo-cli": "^3.27.12",
+    "lodash": "^4.17.20",
+    "luxon": "^1.25.0",
+    "native-base": "^2.13.14",
+    "react": "^16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.2.tar.gz",
+    "react-native-calendars": "^1.403.0",
+    "react-native-confetti-cannon": "^1.5.1",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-indicator": "^1.2.2",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-redash": "^15.4.0",
+    "react-native-safe-area-context": "3.1.4",
+    "react-native-screens": "~2.10.1",
+    "react-native-svg": "^12.1.0",
+    "react-native-web": "~0.13.12",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "victory": "^35.0.9",
+    "victory-native": "^35.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/react-native": "^7.0.2",
+    "jest": "^26.4.2",
+    "jest-expo": "^39.0.0"
+  },
+  "private": true,
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base)"
+    ]
+  }
+}
