@@ -22,8 +22,8 @@ test('auxilary data', async () => {
   );
 
   const button = getByRole('button');
-  // const html = getByRole('button');
-  // const oldButton = getByRole('button');
+  const html = getByRole('button');
+  const oldButton = getByRole('button');
   // let hmm = 'bo3'
 
   // fill out and submit form
