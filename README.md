@@ -1,5 +1,5 @@
-# RecoveryBox
-Codeworks: Solo Project
+# RecoveryBox Legacy code refactoring
+(mostly fixing tho)
 
 TODOs (inexhaustive)
 
