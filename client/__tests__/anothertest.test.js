@@ -22,7 +22,7 @@ test('auxilary data', async () => {
   );
 
   const button = getByRole('button');
-  const html = getByRole('button');
+  // const html = getByRole('button');
   // const oldButton = getByRole('button');
   let hmm = 'bo3'
 
