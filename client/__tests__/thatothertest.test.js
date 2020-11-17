@@ -31,8 +31,8 @@ test('successful login', async () => {
   fireEvent.press(button);
 
   // it sets loading state
-  // expect(button).toBeDisabled();
-  // expect(button).toHaveTextContent('Loading...');
+  expect(button).toBeDisabled();
+  expect(button).toHaveTextContent('Loading...');
 
   await waitFor(() => {
     // expect(getByText('Hello user !').props.children).toBe(
