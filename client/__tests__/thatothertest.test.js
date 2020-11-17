@@ -22,7 +22,7 @@ test('successful login', async () => {
   );
 
   const userField = getByPlaceholderText('Enter a username');
-  // const passwordField = screen.getByLabelText('Password');
+  const passwordField = screen.getByLabelText('Password');
   const button = getByText('IAMTHELOGINBUTTON');
   // const button = screen.getByRole('button');
 
