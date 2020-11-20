@@ -22,9 +22,9 @@ test('successful login', async () => {
   );
 
   const userField = getByPlaceholderText('Enter a username');
-  // const passwordField = screen.getByLabelText('Password');
-  // const button = getByText('IAMTHELOGINBUTTON');
-  // const button = screen.getByRole('button');
+  const passwordField = screen.getByLabelText('Password');
+  const button = getByText('IAMTHELOGINBUTTON');
+  const button = screen.getByRole('button');
 
   // fill out and submit form
   fireEvent.changeText(userField, 'user');
